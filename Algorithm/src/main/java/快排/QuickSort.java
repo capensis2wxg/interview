@@ -14,6 +14,9 @@ public class QuickSort {
         // secondBranch进行测试
         int[] dataSecondBranch = {3, 8, 2, 8, 1, 9, 65, 1};
         quickSort(dataSecondBranch, 0, dataSecondBranch.length - 1);
+        // secondBranch进行测试
+        int[] dataBySubSecondBranch = {3, 8, 2, 8, 1, 9, 65, 1};
+        quickSort(dataBySubSecondBranch, 0, dataBySubSecondBranch.length - 1);
 
     }
 
