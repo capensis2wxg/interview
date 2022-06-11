@@ -13,7 +13,7 @@ public class QuickSort {
     }
 
     public static void quickSort(int[] data, int left, int right) {
-        int tmp = 0;
+        int tmp;
         int start = left;
         int end = right;
         int middleValue = data[(left + right) / 2];
