@@ -10,6 +10,11 @@ public class QuickSort {
     public static void main(String[] args) {
         int[] data = {3, 2, 6, 8, 1, 9, 7, 4, 5};
         quickSort(data, 0, data.length - 1);
+
+        // secondBranch进行测试
+        int[] dataSecondBranch = {3, 8, 2, 8, 1, 9, 65, 1};
+        quickSort(dataSecondBranch, 0, dataSecondBranch.length - 1);
+
     }
 
     public static void quickSort(int[] data, int left, int right) {
